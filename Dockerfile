@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     python-pip \
     libfreetype*
 
-ENV PEBBLE_VERSION PebbleSDK-3.0-dp7
+ENV PEBBLE_VERSION PebbleSDK-3.0-dp8
 
 ENV PEBBLE_HOME /opt/$PEBBLE_VERSION
 ENV PATH $PEBBLE_HOME/bin:$PATH
